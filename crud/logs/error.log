@@ -1,0 +1,2 @@
+{"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms - POST /api/auth/login","timestamp":"2025-04-15T10:25:32.651Z"}
+{"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms - POST /api/auth/login","timestamp":"2025-04-15T10:25:54.175Z"}

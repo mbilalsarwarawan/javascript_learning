@@ -1,0 +1,16 @@
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:25:22.630Z"}
+{"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms - POST /api/auth/login","timestamp":"2025-04-15T10:25:32.651Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:25:44.172Z"}
+{"level":"error","message":"Operation `users.findOne()` buffering timed out after 10000ms - POST /api/auth/login","timestamp":"2025-04-15T10:25:54.175Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:36:31.652Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:36:43.735Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:37:41.246Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:39:01.695Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:39:50.358Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:39:56.340Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:47:29.802Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:47:33.942Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:48:33.590Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:48:49.361Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:49:35.649Z"}
+{"level":"info","message":"POST /api/auth/login","timestamp":"2025-04-15T10:50:24.225Z"}
