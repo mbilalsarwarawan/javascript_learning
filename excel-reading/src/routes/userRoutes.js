@@ -8,15 +8,15 @@ import {
   deleteUser,
 } from '../controllers/userController.js';
 
-const router = express.Router();
+const userRouter = express.Router();
 
-router.route('/')
+userRouter.route('/')
   .get(getUsers)
   .post(createUser);
 
-router.route('/:id')
+  userRouter.route('/:id')
   .get(getUserById)
   .put(updateUser)
   .delete(deleteUser);
 
-export default router;
+export default userRouter;

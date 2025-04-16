@@ -9,6 +9,7 @@ import responseLogger from './middlewares/responseLogger.js';
 import errorHandler from './middlewares/errorHandler.js';
 import dotenv from 'dotenv';
 import userRoutes from './routes/userRoutes.js';
+import excelRoutes from './routes/excelRoutes.js';
 dotenv.config();
 
 const app = express();
@@ -25,6 +26,7 @@ app.use(responseLogger);
 
 app.use('/api', routes);
 app.use('/api/users', userRoutes);
+app.use('/api/excel', excelRoutes);
 
 app.use(errorHandler);
 
