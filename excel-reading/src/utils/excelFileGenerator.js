@@ -2,7 +2,7 @@ import ExcelJS from 'exceljs';
 import path from 'path';
 import fs from 'fs';
 
-export const generateExcelFile = async (data, fileName = 'output.xlsx') => {
+export const generateExcelFile = async (data, filename) => {
     if (!Array.isArray(data) || data.length === 0) {
       throw new Error('Input data must be a non-empty array of objects.');
     }
