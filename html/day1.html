@@ -31,9 +31,27 @@ table, th, td {
 
 
 .flex-container {
+  background-color: blue;
+  color: white;
+  height: 100px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+align-content: stretch;
 }
+
+  .item{
+    flex: 0 0 30%;
+    height: 40px;
+    background: #0074D9;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+  }
 
 </style>
 
@@ -162,9 +180,13 @@ ignores it.
 <div class="flex-container">
 
 
-    <div>1</div>
-  <div>2</div>
-  <div>3</div>
+    <div class="item">1</div>
+    <div class="item">1</div>
+    <div class="item">1</div>
+        <div class="item">1</div>
+    <div class="item">1</div>
+    <div class="item">1</div>
+
 </div>
 
 </body>
